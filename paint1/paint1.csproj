@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\pencil.png" />
+    <None Remove="Views\Color_Picker.png" />
+    <None Remove="Views\ellipse.png" />
+    <None Remove="Views\line.png" />
+    <None Remove="Views\pencil.png" />
+    <None Remove="Views\rec.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\pencil.png" />
+    <Resource Include="Images\rec.png" />
+    <Resource Include="Images\ellipse.png" />
+    <Resource Include="Images\line.png" />
+  </ItemGroup>
+
+</Project>
